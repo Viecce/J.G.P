@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="首页"
+        android:orderInCategory="100"
+        android:icon="@drawable/thin0045homehouse"
+        app:showAsAction="never"
+        android:id="@+id/homePage"/>
+    <item
+        android:title="搜索"
+        android:orderInCategory="100"
+        android:icon="@drawable/thin0033searchfindzoom"
+        app:showAsAction="never"
+        android:id="@+id/search"/>
+    <item
+        android:title="我的"
+        android:orderInCategory="100"
+        android:icon="@drawable/thin0704usersprofilegroupcouplemanwoman"
+        app:showAsAction="never"
+        android:id="@+id/me"/>
+</menu>
