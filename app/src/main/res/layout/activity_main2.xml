@@ -30,5 +30,13 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
 </FrameLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42sp"
+        android:layout_gravity="bottom"
+        app:menu="@menu/navigation"
+        android:background="#FFFFFF"
+        android:id="@+id/bottomNavigationView"/>
 
 </android.support.design.widget.CoordinatorLayout>

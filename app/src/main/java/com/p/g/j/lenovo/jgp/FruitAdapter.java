@@ -24,11 +24,13 @@ public class FruitAdapter extends RecyclerView.Adapter <FruitAdapter.ViewHolder>
         CardView cardView;
         ImageView imageView;
         TextView fruitName;
+        TextView description ;
         public ViewHolder(View view){
             super(view);
             cardView = (CardView) view;
             imageView = (ImageView)view.findViewById(R.id.fruit_image);
             fruitName =(TextView)view.findViewById(R.id.item_name);
+            description = (TextView)view.findViewById(R.id.description);
         }
     }
     public FruitAdapter(List<Fruit> fruitList){
@@ -43,7 +45,7 @@ public class FruitAdapter extends RecyclerView.Adapter <FruitAdapter.ViewHolder>
     }
     public void onBindViewHolder(ViewHolder holder,int position){
         Fruit fruit = mFruitList.get(position);
-        holder.fruitName.setText(fruit.getName());
+        holder.description.setText(fruit.getName());
         Glide.with(mContext).load(fruit.getImageId()).into(holder.imageView);
     }
     public int getItemCount(){

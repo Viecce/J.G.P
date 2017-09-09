@@ -1,5 +1,6 @@
 package com.p.g.j.lenovo.jgp.util;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -32,6 +33,7 @@ public class HandleBottomNavigationView {
                                 break;
                             }
                             case R.id.me:{
+
 
                                 break;
                             }

@@ -26,7 +26,7 @@ public class Main2Activity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         initFruits();
         RecyclerView rv = (RecyclerView)findViewById(R.id.recycler_view);
-        GridLayoutManager layoutManager =new GridLayoutManager(this,2);
+        GridLayoutManager layoutManager =new GridLayoutManager(this,1);
         rv.setLayoutManager(layoutManager);
         adapter = new FruitAdapter(fruitList);
         rv.setAdapter(adapter);
